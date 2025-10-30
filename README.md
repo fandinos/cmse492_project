@@ -1,7 +1,7 @@
 # cmse492_project
 CMSE 492 FINAL PROJECT - MICHIGAN STATE UNIVERSITY
 
-# Uncovering emerging roles, skills, and trends in the ML/AI Job Market
+# The Future of AI Careers: Emerging Roles, Skill Demands, and Salary Trends
 
 ## Description
 
