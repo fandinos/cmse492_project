@@ -17,3 +17,25 @@ The data folder contains all datasets, with raw holding the original data and pr
 
 
 To set up the environment, first install Python and create a virtual environment. Then, install all required dependencies using the requirements.txt file by running pip install -r requirements.txt. This ensures all necessary libraries for data processing, modeling, and visualization are available.
+
+## Reproducing Full Pipeline
+
+The main code will be found under the models folder. It follows some basic steps:
+
+1.	Load the processed dataset (data/processed/).
+2.	Run preprocessing and feature engineering.
+3.	Train models (Linear Regression, Random Forest, Gradient Boosting).
+4.	Evaluate performance across the train/val/test split.
+5.	Generate interpretability visuals:
+	•	Feature importance bar plots
+	•	Partial dependence plots
+	•	SHAP summary and force plots
+6.	All figures are automatically saved in the figures/ directory.
+
+## Summary of Findings
+
+Gradient Boosting emerged as the strongest model, capturing nonlinear interactions between experience level, geography, and company size. Salary is most strongly influenced by seniority and region, followed by company characteristics. Clustering revealed clear workforce segments defined by experience, education, and global location.
+
+## Limitations and Future Work
+
+This project provides a comprehensive view of the modern AI labor market and demonstrates how machine learning can uncover structure in global talent trends. The analysis and modeling framework can be extended for workforce planning, compensation analysis, and strategic hiring.
